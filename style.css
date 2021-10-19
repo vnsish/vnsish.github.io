@@ -3,17 +3,50 @@
     text-align: justify
 }
 
+html { 
+    background-color: aliceblue;
+}
+
+a {
+    color:rgb(87, 87, 87);
+}
+
+a:hover {
+    color:rgb(0, 0, 0);
+    
+}
+
+body {
+    
+    height: 100vh;
+    display:block;
+}
+
+.title {
+    color:rgb(87, 87, 87);
+}
+
 .container {
+    display: block;
+    background-color: #FFF;
     padding: 25px;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
     max-width: 900px;
-    background-color:aquamarine;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.links {
+    font-size: 0.9em;
+}
+
+.link {
+    padding-right: 3px;
 }
 
 .header {
-    background-color:darkkhaki;
+    color: rgb(204, 204, 204);
 }
 
 .left-column {
