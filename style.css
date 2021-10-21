@@ -1,10 +1,9 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify
+    text-align: justify;
 }
 
 html { 
-    background-color: aliceblue;
+    background-color: rgb(231, 231, 231);
 }
 
 a {
@@ -29,13 +28,15 @@ body {
 .container {
     display: block;
     background-color: #FFF;
-    padding: 25px;
+    padding: 50px;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
     max-width: 900px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
+
+
 
 .links {
     font-size: 0.9em;
@@ -49,11 +50,58 @@ body {
     color: rgb(204, 204, 204);
 }
 
-.left-column {
-    background-color: lightcoral;
-
+.company {
+    font-size: 15px;;
 }
 
-.right-column {
-    background-color: lightskyblue;
+.sidebartitle {
+    font-size: 1.15em;
+    font-weight:bold;
+}
+.sidebarentry {
+    font-size: 0.9em;
+}
+
+.maincategory {
+    font-size: 1.3em;
+    font-weight:bolder;
+    display:flex;
+}
+
+.maincategory::before {
+    content: "";
+    height: 0.3em;
+    flex: 1;
+    border-bottom: 1px solid;
+    margin: auto;
+    margin-right: 0.5rem;
+}
+
+.maincategory::after {
+    content: "";
+    height: 0.3em;
+    flex: 1;
+    border-bottom: 1px solid;
+    margin: auto;
+    margin-left: 0.5rem;
+}
+
+
+.degreetitle {
+    font-size:1.1em;
+    font-weight: bold;
+}
+
+.jobtitle {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+.maintext {
+    font-size: 1em;
+}
+
+.subtext {
+    font-size:0.9em;
 }
